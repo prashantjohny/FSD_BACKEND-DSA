@@ -1,0 +1,22 @@
+/* Styles exclusive to App.jsx */
+.app-container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 1000px;
+    margin: 50px auto;
+}
+
+/* Headings inside App.jsx */
+.app-container h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Components inside App.jsx */
+.app-container > * {
+    margin-top: 20px;
+}
